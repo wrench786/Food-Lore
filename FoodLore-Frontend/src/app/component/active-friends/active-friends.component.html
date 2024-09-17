@@ -1,0 +1,7 @@
+<h3>Active Friends</h3>
+<ul class="friend-list">
+  <li *ngFor="let friend of friends">
+    <img [src]="friend.image" alt="{{ friend.name }}" class="friend-image">
+    <span>{{ friend.name }}</span>
+  </li>
+</ul>

@@ -1,0 +1,50 @@
+@import "../../../styles.scss";
+
+.food-list-container {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+.food-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.food-item:last-child {
+  border-bottom: none;
+}
+
+.food-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.food-info {
+  flex: 1;
+}
+
+.food-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.popularity {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.likes,
+.dislikes {
+  margin-right: 10px;
+}

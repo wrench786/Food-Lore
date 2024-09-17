@@ -1,0 +1,20 @@
+@import "../../../styles.scss";
+
+.friend-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .friend-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .friend-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
