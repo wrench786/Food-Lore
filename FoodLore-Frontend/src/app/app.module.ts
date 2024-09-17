@@ -7,6 +7,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { TopFoodListComponent } from './component/top-food-list/top-food-list.component';
 import { PostFeedComponent } from './component/post-feed/post-feed.component';
 import { ActiveFriendsComponent } from './component/active-friends/active-friends.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ActiveFriendsComponent } from './component/active-friends/active-friend
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
