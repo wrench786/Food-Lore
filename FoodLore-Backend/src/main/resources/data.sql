@@ -11,3 +11,24 @@ INSERT INTO Food (name, description, likes, dislikes, image_url) VALUES
      ('Singara', 'Singara', 300, 0, 'https://i.postimg.cc/HkpJdfXN/singara.jpg'),
      ('Sushi', 'Sushi', 50, 0, 'https://i.postimg.cc/tgJYVWrt/sushi.jpg'),
      ('Tacos', 'Tacos', 200, 0, 'https://i.postimg.cc/q7FgcqSf/tacos.jpg');
+
+INSERT INTO authority_table
+VALUES(1, 'ROLE_ADMIN');
+
+INSERT INTO authority_table
+VALUES(2, 'ROLE_USER');
+
+INSERT INTO user_table (user_id, first_name, last_name, username, password)
+VALUES(101L, 'Minhajul', 'Islam', 'wrench', 'iamadmin');
+
+INSERT INTO user_table (user_id, first_name, last_name, username, password)
+VALUES(102L, 'Sanzida', 'Sultana', 'SanzidaSultana', 'iamuser');
+
+INSERT INTO user_authority (user_id, authority_id)
+VALUES(101L, 1);
+
+INSERT INTO user_authority (user_id, authority_id)
+VALUES(101L, 2);
+
+INSERT INTO user_authority (user_id, authority_id)
+VALUES(102L, 2);
