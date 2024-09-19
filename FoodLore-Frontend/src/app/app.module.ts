@@ -8,6 +8,8 @@ import { TopFoodListComponent } from './component/top-food-list/top-food-list.co
 import { PostFeedComponent } from './component/post-feed/post-feed.component';
 import { ActiveFriendsComponent } from './component/active-friends/active-friends.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { HttpClientModule } from '@angular/common/http';
     HomePageComponent,
     TopFoodListComponent,
     PostFeedComponent,
-    ActiveFriendsComponent
+    ActiveFriendsComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
