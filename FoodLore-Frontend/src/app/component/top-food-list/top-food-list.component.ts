@@ -24,8 +24,14 @@ export class TopFoodListComponent implements OnInit {
 
   ngOnInit(): void {
     this.foodApiService.getTopTenFoodList().subscribe({
-      next: (data) => this.foods = data,
-      error: (data) => this.error = data
+      next: (data) => {
+        this.foods = data;
+        console.log(data);
+      },
+      error: (data) => {
+        this.error = data;
+        console.log(data);
+      }
     });
   }
 }
