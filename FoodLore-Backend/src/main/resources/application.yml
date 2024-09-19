@@ -14,3 +14,6 @@ spring:
   h2:
     console:
       enabled: true
+jwt:
+  expiry: 30000
+  secret: c3mwXUR8RC3ugnWmfDe1rPo8vufFuE7pbkCUumG2o4M=
