@@ -1,4 +1,4 @@
-package com.minhajcse.model;
+package com.minhajcse.security.model;
 
 import jakarta.persistence.*;
 import lombok.*;

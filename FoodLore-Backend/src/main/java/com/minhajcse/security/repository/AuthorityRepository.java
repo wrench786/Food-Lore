@@ -1,6 +1,6 @@
-package com.minhajcse.repository;
+package com.minhajcse.security.repository;
 
-import com.minhajcse.model.Authority;
+import com.minhajcse.security.model.Authority;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

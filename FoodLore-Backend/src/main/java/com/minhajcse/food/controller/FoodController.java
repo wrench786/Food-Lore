@@ -1,10 +1,9 @@
-package com.minhajcse.controller;
+package com.minhajcse.food.controller;
 
-import com.minhajcse.model.Food;
-import com.minhajcse.service.FoodService;
+import com.minhajcse.food.service.FoodService;
+import com.minhajcse.food.model.Food;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,10 +23,5 @@ public class FoodController {
     public ResponseEntity<List<Food>> getTopTenFoods() {
         List<Food> topTenFoods = foodService.getTopTenFoods();
         return new ResponseEntity<>(topTenFoods, HttpStatus.OK);
-    }
-
-    @GetMapping("/yo")
-    public String yo(){
-        return "yo";
     }
 }

@@ -1,6 +1,6 @@
-package com.minhajcse.repository;
+package com.minhajcse.security.repository;
 
-import com.minhajcse.model.User;
+import com.minhajcse.security.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

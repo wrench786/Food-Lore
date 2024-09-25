@@ -1,7 +1,7 @@
-package com.minhajcse.config;
+package com.minhajcse.security.config;
 
-import com.minhajcse.service.CustomUserDetailsService;
-import com.minhajcse.utility.JwtUtil;
+import com.minhajcse.security.service.CustomUserDetailsService;
+import com.minhajcse.security.utility.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

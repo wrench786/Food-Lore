@@ -1,4 +1,4 @@
-package com.minhajcse.utility;
+package com.minhajcse.security.utility;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;

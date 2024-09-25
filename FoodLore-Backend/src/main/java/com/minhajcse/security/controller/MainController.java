@@ -1,9 +1,9 @@
-package com.minhajcse.controller;
+package com.minhajcse.security.controller;
 
-import com.minhajcse.model.User;
-import com.minhajcse.service.CustomUserDetailsService;
-import com.minhajcse.service.UserService;
-import com.minhajcse.utility.JwtUtil;
+import com.minhajcse.security.model.User;
+import com.minhajcse.security.service.CustomUserDetailsService;
+import com.minhajcse.security.service.UserService;
+import com.minhajcse.security.utility.JwtUtil;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

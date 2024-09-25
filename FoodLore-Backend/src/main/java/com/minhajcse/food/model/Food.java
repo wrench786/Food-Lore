@@ -1,4 +1,4 @@
-package com.minhajcse.model;
+package com.minhajcse.food.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

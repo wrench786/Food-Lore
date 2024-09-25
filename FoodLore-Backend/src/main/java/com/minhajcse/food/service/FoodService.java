@@ -1,11 +1,10 @@
-package com.minhajcse.service;
+package com.minhajcse.food.service;
 
-import com.minhajcse.model.Food;
-import com.minhajcse.repository.FoodRepository;
+import com.minhajcse.food.model.Food;
+import com.minhajcse.food.repository.FoodRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 

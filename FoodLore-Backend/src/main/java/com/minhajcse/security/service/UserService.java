@@ -1,9 +1,9 @@
-package com.minhajcse.service;
+package com.minhajcse.security.service;
 
-import com.minhajcse.model.Authority;
-import com.minhajcse.model.User;
-import com.minhajcse.repository.AuthorityRepository;
-import com.minhajcse.repository.UserRepository;
+import com.minhajcse.security.model.Authority;
+import com.minhajcse.security.model.User;
+import com.minhajcse.security.repository.AuthorityRepository;
+import com.minhajcse.security.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
